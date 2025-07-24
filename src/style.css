@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@layer components {
+    .list {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .board-header {
+        white-space: nowrap;              
+        overflow: hidden;                 
+        text-overflow: ellipsis;         
+        flex: 1;                          
+        font-weight: bold;              
+        padding-left: 0.5rem;            
+        border-bottom: 1px solid #D1D5DB; 
+        display: flex;                  
+        align-items: center;           
+        background-color: #F9FAFB;    
+}
+
+}
